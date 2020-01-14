@@ -8,11 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		8A65CE96233D91EA00A97727 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CE95233D91EA00A97727 /* AppDelegate.swift */; };
-		8A65CE98233D91EA00A97727 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CE97233D91EA00A97727 /* ViewController.swift */; };
 		8A65CE9B233D91EA00A97727 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CE99233D91EA00A97727 /* Main.storyboard */; };
 		8A65CE9D233D91EB00A97727 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CE9C233D91EB00A97727 /* Assets.xcassets */; };
 		8A65CEA0233D91EB00A97727 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A65CE9E233D91EB00A97727 /* LaunchScreen.storyboard */; };
 		8A65CEAB233D91EB00A97727 /* IuriesGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CEAA233D91EB00A97727 /* IuriesGameTests.swift */; };
+		8A65CEBA233E51C100A97727 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CEB9233E51C100A97727 /* FirstViewController.swift */; };
+		8A65CEBC233E5B0300A97727 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A65CEBB233E5B0300A97727 /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,7 +29,6 @@
 /* Begin PBXFileReference section */
 		8A65CE92233D91EA00A97727 /* IuriesGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IuriesGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A65CE95233D91EA00A97727 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8A65CE97233D91EA00A97727 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8A65CE9A233D91EA00A97727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8A65CE9C233D91EB00A97727 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A65CE9F233D91EB00A97727 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +36,8 @@
 		8A65CEA6233D91EB00A97727 /* IuriesGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IuriesGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A65CEAA233D91EB00A97727 /* IuriesGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IuriesGameTests.swift; sourceTree = "<group>"; };
 		8A65CEAC233D91EB00A97727 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A65CEB9233E51C100A97727 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		8A65CEBB233E5B0300A97727 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				8A65CE95233D91EA00A97727 /* AppDelegate.swift */,
-				8A65CE97233D91EA00A97727 /* ViewController.swift */,
+				8A65CEB9233E51C100A97727 /* FirstViewController.swift */,
 				8A65CE99233D91EA00A97727 /* Main.storyboard */,
+				8A65CEBB233E5B0300A97727 /* SecondViewController.swift */,
 				8A65CE9C233D91EB00A97727 /* Assets.xcassets */,
 				8A65CE9E233D91EB00A97727 /* LaunchScreen.storyboard */,
 				8A65CEA1233D91EB00A97727 /* Info.plist */,
@@ -197,8 +200,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8A65CE98233D91EA00A97727 /* ViewController.swift in Sources */,
+				8A65CEBC233E5B0300A97727 /* SecondViewController.swift in Sources */,
 				8A65CE96233D91EA00A97727 /* AppDelegate.swift in Sources */,
+				8A65CEBA233E51C100A97727 /* FirstViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
